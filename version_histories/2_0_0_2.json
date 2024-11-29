@@ -1,10 +1,10 @@
 {
-    "version": "v2.0.1.2",
+    "version": "v2.0.0.2",
     "type": "stable",
     "change_log": {
-        "patch": {
+        "sub_patch": {
             "text": [
-                "fix release"
+                "new release"
             ]
         }
     }
