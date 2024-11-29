@@ -1,0 +1,28 @@
+{
+    "version": "2.6.1.1",
+    "type": "stable",
+    "change_log": [
+        {
+            "text": "new product gallery",
+            "link_text" : "view",
+            "link": "/product/gallery/link"
+        },
+        {
+            "text": "print layout change"
+        },
+        {
+            "text": "add column to sale details report"
+        },
+        {
+            "text": "fix and optimize product import"
+        },
+        {
+            "text": "fix and optimize opening stock import"
+        }
+    ],
+    "description": [
+        {
+            "text": "N/A"
+        }
+    ]
+}

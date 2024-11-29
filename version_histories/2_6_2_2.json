@@ -1,0 +1,25 @@
+{
+    "version": "2.6.2.2",
+    "type": "stable",
+    "change_log": [
+        {
+            "text": "bug fix product variable edit"
+        },
+        {
+            "text": "Optimize Product Import"
+        },
+        {
+            "text": "Improve transfer and adjustment of stock transaction flow from CSB(Current Stock Balance)."
+        },
+        {
+            "text": "New Current Stock Balance Report",
+            "link_text" : "Try",
+            "link": "/reports/current-stock-balance/product"
+        }
+    ],
+    "description": [
+        {
+            "text": "Recommended to visit the 'demo.picosbs.com' to test the improved stock transaction flow!"
+        }
+    ]
+}

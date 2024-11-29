@@ -1,0 +1,17 @@
+{
+    "version": "2.5.11.1",
+    "type": "stable",
+    "change_log": [
+
+        {
+            "text": "improve ecommerce sale details",
+            "link_text" : "view",
+            "link": "/sell/ecommerce/sales"
+        }
+    ],
+    "description": [
+        {
+            "text": "N/A"
+        }
+    ]
+}

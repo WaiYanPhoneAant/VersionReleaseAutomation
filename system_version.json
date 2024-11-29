@@ -1,0 +1,35 @@
+{
+    "version": "2.7.0.0",
+    "type": "stable",
+    "change_log": [
+        {
+            "text": "Updated all apps menu and redesigned Apps Side Bar to Apps Menu."
+        },
+        {
+            "text": "Prepared API module for upcoming integrations."
+        },
+        {
+            "text": "Removed logo from business creation process."
+        },
+        {
+            "text": "Commented out lot fetch in CSB service for optimization."
+        },
+        {
+            "text": "Fixed issues in navBar."
+        }
+    ],
+    "description": [
+        {
+            "text": "This update introduces significant improvements to the user interface and backend functionality. The Apps Side Bar has been redesigned into a more intuitive Apps Menu, streamlining navigation and enhancing user experience. Additionally, a new API module has been prepared, laying the groundwork for future integrations and expanding the system's capabilities."
+        },
+        {
+            "text": "Optimizations have also been made across the platform, including the removal of the logo from the business creation process to simplify the setup, and improvements to the CSB service by commenting out unnecessary lot fetch operations. Furthermore, minor issues in the navigation bar have been resolved to ensure smoother operation."
+        },
+        {
+            "text": "Easy to access All App (Alt +A) or (Option +A)"
+        },
+        {
+            "text": "Easy to exit from All App (ESC)"
+        }
+    ]
+}

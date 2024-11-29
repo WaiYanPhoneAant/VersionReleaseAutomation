@@ -1,0 +1,20 @@
+{
+    "version": "2.5.10.9",
+    "type": "stable",
+    "change_log": [
+        {
+            "text": "fix posting reservation at pos sale print"
+        },
+        {
+            "text": "performance optimize"
+        },
+        {
+            "text": "improve hidden settings"
+        }
+    ],
+    "description": [
+        {
+            "text": "N/A"
+        }
+    ]
+}

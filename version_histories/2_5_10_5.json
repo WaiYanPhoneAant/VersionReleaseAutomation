@@ -1,0 +1,33 @@
+{
+    "version": "2.5.10.5",
+    "type": "stable",
+    "change_log": [
+        {
+            "text": "Improve system version notify system"
+        },
+        {
+            "text": "Improve Storage for image saving"
+        },
+        {
+            "text": "Fix Stock Adjustments edit and delete"
+        },
+        {
+            "text": "New column add in current stock report (average purchase, total purchase)",
+            "link_text" : "view",
+            "link": "/product"
+        },
+        {
+            "text": "New column add in product list (average purchase, last purchase)",
+            "link_text" : "view",
+            "link": "/reports/current-stock-balance/product"
+        }
+    ],
+    "description": [
+        {
+            "text": "You can control 'version update notification' in settings",
+            "text_class": "text-warning",
+            "link_text" : "Learn More",
+            "link": "/settings/preferences"
+        }
+    ]
+}

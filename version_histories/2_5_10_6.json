@@ -1,0 +1,14 @@
+{
+    "version": "2.5.10.6",
+    "type": "stable",
+    "change_log": [
+        {
+            "text": "This version includes bug fixes for product edit"
+        }
+    ],
+    "description": [
+        {
+            "text": "N/A"
+        }
+    ]
+}
