@@ -149,7 +149,7 @@ class GenerateRelease extends Command
         ));
 
         $process = new Process([
-            'gh', 'release', 'create', $version,
+            'git', 'release', 'create', $version,
             '--title', "Release $version",
             '--notes', $changeLog
         ]);

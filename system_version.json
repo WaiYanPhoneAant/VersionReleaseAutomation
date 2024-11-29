@@ -1,10 +1,10 @@
 {
-    "version": "v2.0.0.1",
+    "version": "v2.0.0.2",
     "type": "stable",
     "change_log": {
-        "major": {
+        "sub_patch": {
             "text": [
-                "feat! laravel 1"
+                "new release"
             ]
         }
     }
