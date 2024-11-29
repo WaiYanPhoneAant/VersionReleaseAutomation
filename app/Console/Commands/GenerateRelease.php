@@ -154,7 +154,7 @@ class GenerateRelease extends Command
             '--notes', $changeLog
         ]);
         $process->run();
-
+        logger($process->getOutput());
         if (!$process->isSuccessful()) {
             $this->error('Failed to create GitHub release.');
             return;
