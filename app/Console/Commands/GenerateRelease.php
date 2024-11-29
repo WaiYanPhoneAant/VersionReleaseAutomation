@@ -58,6 +58,9 @@ class GenerateRelease extends Command
         // Create the new tag
         $this->createGitTag($nextVersion);
 
+        // Create the release
+        $this->createGitRelease($nextVersion, $changeLogCommits);
+
         // Create the version history JSON file
 
         return Command::SUCCESS;
@@ -134,6 +137,30 @@ class GenerateRelease extends Command
         }
 
         $this->info("Tag $version pushed to remote successfully.");
+    }
+
+    protected function createGitRelease($version, $changeLogCommits)
+    {
+        $changeLog = implode("\n", array_merge(
+            $changeLogCommits['major'] ?? [],
+            $changeLogCommits['minor'] ?? [],
+            $changeLogCommits['patch'] ?? [],
+            $changeLogCommits['sub_patch'] ?? []
+        ));
+
+        $process = new Process([
+            'gh', 'release', 'create', $version,
+            '--title', "Release $version",
+            '--notes', $changeLog
+        ]);
+        $process->run();
+
+        if (!$process->isSuccessful()) {
+            $this->error('Failed to create GitHub release.');
+            return;
+        }
+
+        $this->info("Release $version created successfully.");
     }
 
     protected function createVersionHistoryFile($version, $changeLogCommits)
